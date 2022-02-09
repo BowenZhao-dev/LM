@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>
+          ELPAIS.com-seccion tecnologia  
+        </title>
+        <link>
+        www.elpais.com    
+        </link>
+        <description>
+        elpais Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eaque quasi, temporibus in expedita nihil vitae ratione veritatis velit delectus voluptatum sapiente pariatur impedit aperiam distinctio, sequi odio perferendis numquam! 
+        </description>
+        <item>
+            <title>
+                sony empieza a reabrir las plataformas asaltadas 
+             </title>
+             <link>
+               www.elpais.com/sony
+             </link>
+             <description>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, culpa magnam eos, in repudiandae ex earum velit, animi deserunt dicta debitis porro odio consequuntur officia dolor iure reprehenderit ad repellat.
+             </description>
+        </item>
+        <item>
+            <title>
+                El código detrás del tuit
+             </title>
+             <link>
+               www.elpais.com/codigo  
+             </link>
+             <description>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, culpa magnam eos, in repudiandae ex earum velit, animi deserunt dicta debitis porro odio consequuntur officia dolor iure reprehenderit ad repellat.
+             </description>
+        </item>
+        <item>
+            <title>
+                google maneja el ruido en la red para ocultar sus problemas
+             </title>
+             <link>
+               www.elpais.com/google  
+             </link>
+             <description>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, culpa magnam eos, in repudiandae ex earum velit, animi deserunt dicta debitis porro odio consequuntur officia dolor iure reprehenderit ad repellat.
+             </description>
+        </item>
+    </channel>
+</rss>
