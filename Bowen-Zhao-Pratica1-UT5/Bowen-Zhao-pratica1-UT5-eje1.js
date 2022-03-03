@@ -9,17 +9,19 @@ const Aac = prompt("año actual")
 let day=Dnac-Dac
 let month=Mnac-Mac
 let year=Aac-Anac
-if ( year <= 65 ){
-if ( year < 65 ){
-    if ( day<= 0 , month<=0 )
-}
+if ( year >= 65 ){
+if ( year == 65 ){
+    if ( day <= 0 && month <=0 ){
+        alert("yes")
+    }
+        else{  
 
-{
-
-}
-else
-{
-        console.log("no")
-}
-
+            alert("no") }
+        }
+else {
+    alert("yes")
+}  
+} 
+else {
+    alert("no") 
 }
