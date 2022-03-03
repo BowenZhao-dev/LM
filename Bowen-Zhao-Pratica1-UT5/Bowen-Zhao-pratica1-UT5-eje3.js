@@ -2,29 +2,29 @@
 //const Dact = prompt("dia actual")
 'use strict';
 
-const Nombre = prompt("Nombre del trabajador")
-const Horas = prompt("Número de horas de trabajo")
-const PrecioHora = prompt("El precio que cobra el trabajador por hora")
-const Dias = prompt("¿Cuantos días trabajas al mes?")
+const name = prompt("Nombre del trabajador")
+const time = prompt("Número de horas de trabajo")
+const moneytime = prompt("El precio que cobra el trabajador por hora")
+const day = prompt("¿Cuantos días trabajas al mes?")
 
-const Bruto = PrecioHora * Horas * Dias
+const Bruto = moneytime * time * day
 
-const ImpuestoH = PrecioHora * Horas * Dias * 20 / 100
+const tax = moneytime * time * day * 20 / 100
 
-const ImpuestoSS = PrecioHora * Horas * Dias * 8 / 100
+const taxss = moneytime * time * day * 8 / 100
 
-const ImpuestoTODOS = ImpuestoH + ImpuestoSS
+const taxall = tax + taxss
 
-const Neto = Bruto - ImpuestoTODOS
+const Neto = Bruto - taxall
 
-    console.log("Nombre del trabajador " + Nombre)
+    alert("Nombre " + name)
 
-    console.log ("Lo que gana en un dia " + PrecioHora * Horas)
+    alert("gana en un dia" + moneytime * time)
 
-    console.log ("El salario bruto " + PrecioHora * Horas * Dias)
+    alert("salario bruto " + moneytime * time * day)
 
-    console.log ("Lo que paga de Imputos a Hacienda " + PrecioHora * Horas * Dias * 20 / 100)
+    alert("Imputos a Hacienda " + moneytime * time * day * 20 / 100)
 
-    console.log ("Lo que paga de la Seguridad Social " + PrecioHora * Horas * Dias * 8 / 100)
+    alert("Seguridad Social " + moneytime * time * day * 8 / 100)
 
-    console.log("Lo que gana neto " + Neto)
+    alert("neto " + Neto)
