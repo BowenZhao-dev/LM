@@ -1,15 +1,71 @@
 //Ejercicio 6
 //const Dact = prompt("dia actual")
-const Mact = prompt("mes actual")
-const Aact = prompt("año actual")
+'use strict';
+const numcan= prompt("Elige uno de los canales (2, 5, 7, 9, 11, 40, 41, 36, 99, 33, 15, 26 y 18, 99")
 
-//const Dnc = prompt("dia nace")
-const Mnc = prompt("mes nace")
-const Anc = prompt("año nace")
-let res= Aact - Anc
-let resM= Mnc - Mact 
-if (res > 65 , res = 65 )
-if ( resM = 0 , resM < 0 )
-alert ("yes")
-else if (res < 65)
-alert("No")
+switch(numcan)
+{
+    case "2":
+        alert("WBBM" )
+
+    break;
+
+    case "5":
+        alert("WMAQ")
+ 
+    break;
+
+    case "7":
+        alert("WLS")
+
+    break;
+
+    case "9":
+        alert("WGN")
+    break;
+
+    case "11":
+        alert("WTTW ")
+ 
+    break;
+
+    case "40":
+        alert("AE" )
+ 
+    break;
+
+    case "41":
+        alert("AMC")
+
+    break;
+
+    case "36":
+        alert("CNN ")
+ 
+    break;
+
+    case "99":
+        alert("DIS " )
+
+    break;
+
+    case "33":
+        alert("ESPN" )
+
+    break;
+
+    case "15":
+        alert("HBO " )
+
+    break;
+
+    case "26":
+        alert("MAX " )
+
+    break;
+
+    case "18":
+        alert("QVC " )
+    break;
+
+}
