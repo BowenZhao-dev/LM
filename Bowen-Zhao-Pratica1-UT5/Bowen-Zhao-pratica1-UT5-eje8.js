@@ -1,5 +1,6 @@
 //Ejercicio 8
 //const Dact = prompt("dia actual")
+'use strict';
 let color = prompt("inicial de un color")
 if (color == "a" )
 {
