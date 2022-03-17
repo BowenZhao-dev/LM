@@ -1,22 +1,22 @@
 `use strict`;
-let count = 0
-let num 
-let t = 0
-while( count < 10 && num != -1) {
-    num = prompt ("introduce valor entre 0 y 10, termina con introdicir -1")
-    if (num >= -1 && num <= 10){
-        if (num >= 0 && num <= 10) { 
-            count++
-            if( num == 10){
-                t++
-            }
-        }
-        else{
-            alert("exit")
-        }
-    }
-    else{
-        alert("introduce un valor valido")
-    }
+let resu = ""
+const rest = "s"
+let num
+while ( num != "s"){
+    num=prompt("introduce dinero, termina con introducir -s-")
+    resu=num+resu
 }
-alert(`total hay ${t} de 10`)
+    resu=resu.replace("s","")
+    if( resu < 50 ){
+        alert(`habitacion tipo 1`)
+    }
+    else if( resu >= 50 && resu < 100 ){
+        alert(`habitacion tipo 2`)
+    }
+    else if( resu >= 50 && resu < 150 ){
+        alert(`habitacion tipo 3`)
+    }
+    if( resu > 150 ){
+        alert(`habitacion suite`)
+    }
+    
