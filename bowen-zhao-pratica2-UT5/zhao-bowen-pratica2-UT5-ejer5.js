@@ -19,4 +19,5 @@ while ( num != "s"){
     if( resu > 150 ){
         alert(`habitacion suite`)
     }
-    
+    //
+no funciona von mutiblo numero
