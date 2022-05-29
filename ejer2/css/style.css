@@ -1,0 +1,27 @@
+html
+{
+    background: rgb(113, 168, 231) 
+}
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table
+{
+    width: 500px;
+    border-style: solid;
+    border-width:thin;
+    
+}
+tr:nth-child(even) 
+{
+     background: rgb(113, 144, 231);
+     text-align: left;
+}
+tr:nth-child(odd) 
+{
+     background: rgb(110, 185, 148); 
+     text-align: right;
+}

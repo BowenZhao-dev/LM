@@ -1,0 +1,24 @@
+table
+{
+    border-style: solid;
+    border-width: thin;
+    background-color: blanchedalmond;
+    display: flex;
+}
+td
+{
+    border-style: solid;
+    border-width:thin;
+}
+tr:nth-child(even) 
+{
+     background: rgb(113, 144, 231) 
+}
+tr:nth-child(odd) 
+{
+     background: rgb(113, 168, 231) 
+}
+html
+{
+    background-color: rgb(177, 185, 154);
+}
